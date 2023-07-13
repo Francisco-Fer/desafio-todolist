@@ -28,13 +28,13 @@ public List<Todo> create(Todo todo){
     return list();
 }
 
-public List<Todo> upadate(Todo todo){
+public List<Todo> update(Todo todo){
      todoRepository.save(todo);
     return list();
 }
 
 public List<Todo> delete(Long Id){
-    todoRepository.delete(null);
+    todoRepository.deleteById(Id);
     return list();
 }
 }
