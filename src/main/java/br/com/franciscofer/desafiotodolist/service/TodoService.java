@@ -3,7 +3,6 @@ package br.com.franciscofer.desafiotodolist.service;
 import java.util.List;
 
 import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import br.com.franciscofer.desafiotodolist.entity.Todo;
